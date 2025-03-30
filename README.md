@@ -141,6 +141,23 @@ O projeto forneceu insights valiosos sobre o comportamento do consumidor e permi
 
 Esse sistema pode ser utilizado para otimizar campanhas de marketing e melhorar a experiência do cliente em plataformas de e-commerce.
 
+### **Conclusão para a Regra de Associação Obtida**  
+
+A regra de associação número 191 **(fresh herbs) → (fresh fruits, fresh vegetables)** indica que clientes que compram **ervas frescas** têm uma forte tendência a comprar também **frutas frescas e vegetais frescos**.  
+
+ **Interpretação dos Indicadores:**  
+- **Suporte = 6,18%** → A combinação de ervas frescas com frutas e vegetais aparece em **6,18% de todas as transações** do dataset. Isso sugere que essa associação ocorre com frequência relevante.  
+- **Confiança = 66,46%** → Quando um cliente compra **ervas frescas**, há **66,46% de chance** de que ele também compre frutas e vegetais frescos. Esse valor indica uma relação forte entre esses produtos.  
+- **Lift = 2,09** → Esse valor mostra que a compra de ervas frescas **aumenta em 2,09 vezes a probabilidade** de o cliente comprar frutas e vegetais, comparado a compras aleatórias. Como o lift é maior que 1, isso confirma que há uma **associação positiva e significativa** entre esses produtos.   
+---
+**Aplicação Prática:**  
+Esse insight pode ser utilizado para **estratégias de marketing e vendas**, como:  
+- Criar promoções conjuntas para esses produtos.  
+- Recomendar frutas e vegetais frescos para clientes que compram ervas frescas.  
+- Posicionar esses produtos próximos no supermercado ou no site para incentivar compras combinadas.  
+
+Esse tipo de análise ajuda a **otimizar vendas e melhorar a experiência do cliente**, oferecendo recomendações mais personalizadas. 
+
 ## 🛠️ Ferramentas Utilizadas
 - **Linguagem:** `Python`
 - **Bibliotecas:** `pandas`, `numpy`, `seaborn`, `matplotlib`, `mlxtend`
