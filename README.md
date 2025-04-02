@@ -6,9 +6,10 @@
 3. [Dataset](#-dataset)
 4. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
 5. [Metodologia](#-metodologia)
-6. [Resultados](#resultados)
-7. [Próximos Passos](#-próximos-passos)
-8. [Como Usar](#-como-executar)
+6. [Análise Exploratória de Dados (EDA)](#-analise-exploratoria-de-dados)
+7. [Sistema de Recomendacão com Apriori](#-sistema-de-recomendacão-com-apriori)
+8. [Resultados](#resultados)
+9. [Próximos Passos](#-próximos-passos)
 
 ## 📋 Introdução
 
