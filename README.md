@@ -4,10 +4,10 @@
 1. [Introdução](#-introdução)
 2. [Objetivo](#-objetivo)
 3. [Dataset](#-dataset)
-4. [Análise Exploratória de Dados (EDA)](#-analise-exploratoria-de-dados)
+4. [Análise Exploratória de Dados (EDA)](#-analise-exploratoria-de-dados-(eda))
 5. [Sistema de Recomendacão com Apriori](#-sistema-de-recomendacão-com-apriori)
 6. [Conclusão](#-conclusão)
-7. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
+7. [Ferramentas Utilizadas](#-ferramentas-utilizadas-)
 8. [Próximos Passos](#-próximos-passos)
 
 ## 📋 Introdução
