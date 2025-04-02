@@ -1,8 +1,8 @@
 # **Projeto de Análise Exploratória de Dados e Sistema de Recomendacão com Apriori**
 
 ## Índice
-1. [Introdução](#-descrição)
-2. [Objetivo](#-dataset)
+1. [Introdução](#-introdução)
+2. [Objetivo](#-objetivo)
 3. [Dataset](#-dataset)
 4. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
 5. [Metodologia](#-metodologia)
@@ -134,7 +134,7 @@ O Algoritmo Apriori foi aplicado com os seguintes parâmetros:
 As **regras de associação** foram geradas e ordenadas pelo **Lift**, indicando os produtos mais frequentemente comprados juntos.
 
 ## 📋 Conclusão
-O projeto forneceu insights valiosos sobre o comportamento do consumidor e permitiu a criação de um **sistema de recomendação baseado em regras de associação**. As principais descobertas foram:
+O projeto forneceu insights valiosos, que podem ser observados no notebook ([link](https://github.com/jandeilsonxavier/market-basket-analysis/blob/main/market_basket_analysis.ipynb)), sobre o comportamento do consumidor e permitiu a criação de um **sistema de recomendação baseado em regras de associação**. Algumas das descobertas foram:
 - Determinamos os **horários de pico** e **dias mais movimentados** para pedidos.
 - Identificamos **padrões de recompra** entre clientes frequentes.
 - Implementamos um modelo para **recomendar produtos frequentemente comprados juntos**.
@@ -149,8 +149,8 @@ A regra de associação número 191 **(fresh herbs) → (fresh fruits, fresh veg
 - **Suporte = 6,18%** → A combinação de ervas frescas com frutas e vegetais aparece em **6,18% de todas as transações** do dataset. Isso sugere que essa associação ocorre com frequência relevante.  
 - **Confiança = 66,46%** → Quando um cliente compra **ervas frescas**, há **66,46% de chance** de que ele também compre frutas e vegetais frescos. Esse valor indica uma relação forte entre esses produtos.  
 - **Lift = 2,09** → Esse valor mostra que a compra de ervas frescas **aumenta em 2,09 vezes a probabilidade** de o cliente comprar frutas e vegetais, comparado a compras aleatórias. Como o lift é maior que 1, isso confirma que há uma **associação positiva e significativa** entre esses produtos.   
----
-**Aplicação Prática:**  
+
+### **Aplicação Prática:**  
 Esse insight pode ser utilizado para **estratégias de marketing e vendas**, como:  
 - Criar promoções conjuntas para esses produtos.  
 - Recomendar frutas e vegetais frescos para clientes que compram ervas frescas.  
@@ -163,37 +163,8 @@ Esse tipo de análise ajuda a **otimizar vendas e melhorar a experiência do cli
 - **Bibliotecas:** `pandas`, `numpy`, `seaborn`, `matplotlib`, `mlxtend`
 - **Plataforma:** `Google Colab`
 
----
 
 ## 🚀 Próximos Passos
 - **Automatização do Fluxo de Dados:** Utilizar APIs que integrem o sistema diretamente com a loja virtual ou o ERP.
 - **Monitoramento em Tempo Real:** Habilitar a atualização em tempo real dos dados para oferecer insights instantâneos sobre tendências de compra e desempenho de produtos.
 - **Testes A/B de Sugestões:** Realizar experimentos controlados para avaliar o impacto das recomendações sobre as taxas de conversão e o ticket médio.
-
-## 💻 Como Executar
-
-1. **Clone este repositório**
-```bash
-git clone https://github.com/jandeilsonxavier/analise-regras-associacao.git
-cd restaurants-service-repository
-```
-2. **Crie o ambiente virtual**
-```bash
-python -m venv venv
-```
-3. **Ative o ambiente virtual**
-```bash
-No Windows:
-venv\Scripts\activate
-
-No Mac/Linux:
-source venv/bin/activate
-```
-4. **Instale as dependências**
-```bash
-pip install -r requirements.txt
-```
-5. **Execute o script principal**
-```bash
-streamlit run app.py
-```
