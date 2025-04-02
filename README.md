@@ -4,12 +4,11 @@
 1. [Introdução](#-introdução)
 2. [Objetivo](#-objetivo)
 3. [Dataset](#-dataset)
-4. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
-5. [Metodologia](#-metodologia)
-6. [Análise Exploratória de Dados (EDA)](#-analise-exploratoria-de-dados)
-7. [Sistema de Recomendacão com Apriori](#-sistema-de-recomendacão-com-apriori)
-8. [Resultados](#resultados)
-9. [Próximos Passos](#-próximos-passos)
+4. [Análise Exploratória de Dados (EDA)](#-analise-exploratoria-de-dados)
+5. [Sistema de Recomendacão com Apriori](#-sistema-de-recomendacão-com-apriori)
+6. [Conclusão](#-conclusão)
+7. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
+8. [Próximos Passos](#-próximos-passos)
 
 ## 📋 Introdução
 
